@@ -960,3 +960,44 @@ header.shadow .logo{
 #newcomment{
     margin-top: 1rem;
 }
+.head2{
+    background-color: #000000;
+    color:var(--bg-color);
+    border: none;
+    padding: 1rem;
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+    border-radius: 11px;
+    overflow: hidden;
+}
+.comments_container{
+    width: 968px;
+
+}
+.form_container{
+    display:flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    border: none;
+}
+
+.comm{
+    background-color: #000000;
+    color:var(--bg-color);
+    border: none;
+    padding: 1rem;
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+    border-radius: 11px;
+
+}
+
+.bottom1{
+    background-color: var(--main-color);
+    display: 100%;
+    align-self: flex-end;
+    border: none;
+    padding: 1rem;
+    border-radius: 10%;
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+    border-radius: 11px;
+
+}

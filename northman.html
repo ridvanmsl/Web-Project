@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     <link rel="shortcut icon" href="img/movie-solid-24.png" type="image/x-icon" >
-    
+
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 </head>
@@ -106,24 +106,17 @@
                 <span class="cast-title">Anya Taylor-Joy</span>
             </div>
         </div>
+        <style>  </style>
         <br>
         <div id="commentsection">
             <h3 id="commentsectionheader">Comments</h3>
             
-            <div id="newcomment">
-                <form action="#">
-                        <div style="display: inline-block;">
-                        <input id="name" type="text" placeholder="Enter your name.." required>
-                       </div>
-                       <div style="display: inline-block;">
-                        <input id="surname" type="text" placeholder="Enter your surname.." required>
-                      </div>
-                      <div>
-                          <textarea name="comment" id="comment" cols="150" rows="5" placeholder="Enter your comment.."></textarea>
-                      </div>
-                      <div>
-                          <input type="submit" value="Submit">
-                      </div>
+            <div class="comment_container" id="newcomment">
+                <form class="form_container" action="#">
+                        <input class="head2" id="form_name" type="text" placeholder="Enter your name.." required>
+                        <input class="head2" id="form_surname" type="text" placeholder="Enter your surname.." required>
+                        <textarea class="comm" name="form_comment" id="form_comment" cols="150" rows="5" placeholder="Enter your comment.."></textarea>
+                        <input class="bottom1" type="submit" value="Submit">
                 </form>
             </div>
         </div>
