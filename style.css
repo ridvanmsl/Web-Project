@@ -953,3 +953,10 @@ header.shadow .logo{
     border: 3px solid rgb(2,3,7,0.4);
 }
 
+#commentsectionheader{
+    border-bottom: 1px solid red;
+    color: red;
+}
+#newcomment{
+    margin-top: 1rem;
+}
