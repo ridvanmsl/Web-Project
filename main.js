@@ -79,7 +79,6 @@ function newComment(){
     var months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
     var stringdata = "";
     var fulldate = stringdata.concat(date.getDate()," ",months[date.getMonth()]," ",date.getFullYear(),"  ",date.getHours(),":",date.getMinutes());
-    var data = new FormData();
     var fullname = document.getElementById("full-name").value;
     var comment = document.getElementById("comment").value;
     console.log(comment)
@@ -93,10 +92,13 @@ function newComment(){
         var user_comment = document.createElement("div");
         var name_header = document.createElement("h4");
         var comment_of_user = document.createElement("p");
+        var comm_date = document.createElement("div");
+        var date_show = document.createElement("h6");
         var commentsection = document.getElementById("newcommentprepend");
 
         name_header.innerHTML = fullname;
         comment_of_user.innerHTML = comment; 
+        date_show.innerHTML = fulldate;
 
         user_comment_box.classList.add("user-comment-box");
         user_img_box.classList.add("user-img-box");
@@ -104,13 +106,19 @@ function newComment(){
         user_img_com_bx_bxs_face_mask.classList.add("bx");
         user_img_com_bx_bxs_face_mask.classList.add("bxs-face-mask");
         user_comment.classList.add("user-comment");
+        comm_date.classList.add("comm-date");
 
         commentsection.prepend(user_comment_box);
         user_comment_box.append(user_img_box);
         user_img_box.append(user_img_com_bx_bxs_face_mask);
         user_comment_box.append(user_comment);
-        user_comment.append(name_header);
+        user_comment.append(comm_date);
+        comm_date.append(name_header);
+        comm_date.append(date_show);
         user_comment.append(comment_of_user);
+        
+        
+        
     }
     
 }
