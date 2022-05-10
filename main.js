@@ -124,13 +124,32 @@ function newComment(){
 }
 function handleChange(checkbox) {
     var category = checkbox.value;
+    var elems = document.getElementsByClassName(category);
+    var classes = elems[0].classList;
+    var classname = document.getElementById(classes[1]);
+    console.log(classname.checked);
     if(checkbox.checked == true){
-        document.getElementsByClassName(category).classList.replace("deactive","active");
-
+        for(let i = 0; i<elems.length;i++){
+            elems[i].classList.replace("deactive","active");
+        }
     }
     else
     {
-        document.getElementsByClassName(category).classList.replace("active","deactive");
+        
+        for(let i = 0; i<elems.length;i++){
+            var classes = elems[i].classList;
+            var flag = true;
+            for(let j = 1; i<classes.length-1;j++){
+
+                /*if(classname.checked == true){
+                    flag = false;
+                    break;
+                }*/
+            }
+            if(flag){
+                elems[i].classList.replace("active","deactive");
+            }
+        }
    }
 }
 

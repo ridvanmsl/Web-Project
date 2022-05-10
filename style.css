@@ -1062,9 +1062,10 @@ background-color: #ff1216;
     width: 772.81px;
     justify-content: space-between;
 }
+
 .active{
     display: block !important;
 }
 .deactive{
-    display:none !important;
+    display:none;
 }
