@@ -1057,3 +1057,9 @@ background-color: #ff1216;
     margin: 2rem 0rem 0 2rem;
 }
 
+.comm-date{
+    padding: 0.7rem 1.4rem;
+    color: var(--bg-color);
+    font-size: 13px;
+    margin-block-end: 0%;
+}
