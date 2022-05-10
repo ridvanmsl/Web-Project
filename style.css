@@ -1060,5 +1060,4 @@ background-color: #ff1216;
 .comm-date{
     display: flex;
     justify-content: space-between;
-    min-width: none;
 }
