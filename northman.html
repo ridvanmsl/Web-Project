@@ -111,7 +111,7 @@
 
         <!--=============== SECTION COMMENT ===============-->
 
-        <section class="section-form">
+        <section id="section-form">
             <div class="comment-heading">
             <p>Comments</p>
             </div>
@@ -127,36 +127,38 @@
             
              <input id="full-name" type="text" placeholder="Full Name" required>
              <textarea name="" id="comment" placeholder="Comment..." cols="30" rows="10"></textarea>
-             <input class="btn" type="submit">
+             <input class="btn" type="reset" onclick="newComment()" value="Submit">
             </div>
 
-            <div class="user-comment-box">
-                <div class="user-img-box">
-                    <i class='user-img-com bx bxs-face' ></i>
+            <div id="newcommentprepend">
+                <div class="user-comment-box">
+                    <div class="user-img-box">
+                        <i class='user-img-com bx bxs-face' ></i>
+                    </div>
+                    <div class="user-comment">
+                    <h4>Rıdvan Musaoğlu</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex consectetur itaque vel blanditiis sequi velit ipsam numquam illum deleniti quo.</p>
+                    </div>
                 </div>
-                <div class="user-comment">
-                <h4>Rıdvan Musaoğlu</h4>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex consectetur itaque vel blanditiis sequi velit ipsam numquam illum deleniti quo.</p>
-                </div>
-            </div>
 
-            <div class="user-comment-box">
-                <div class="user-img-box">
-                    <i class='user-img-com bx bx-face' ></i>
+                <div class="user-comment-box">
+                    <div class="user-img-box">
+                        <i class='user-img-com bx bx-face' ></i>
+                    </div>
+                    <div class="user-comment">
+                    <h4>Arman Yaycı</h4>
+                    <p>Lorem ipsum dolor sit, amet Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, dolores. Lorem ipsum dolor sit amet. consectetur adipisicing elit. Ex consectetur itaque vel blanditiis sequi velit ipsam numquam illum deleniti quo.</p>
+                    </div>
                 </div>
-                <div class="user-comment">
-                <h4>Arman Yaycı</h4>
-                <p>Lorem ipsum dolor sit, amet Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, dolores. Lorem ipsum dolor sit amet. consectetur adipisicing elit. Ex consectetur itaque vel blanditiis sequi velit ipsam numquam illum deleniti quo.</p>
-                </div>
-            </div>
 
-            <div class="user-comment-box">
-                <div class="user-img-box">
-                    <i class='user-img-com bx bxs-face-mask' ></i>
-                </div>
-                <div class="user-comment">
-                <h4>Ahmet Eray Karadağ</h4>
-                <p>Lorem ipsum dolor sit,Lorem ipsum dolor sit amet. amet consectetur adipisicing elit. Ex consectetur itaque vel blanditiis sequi velit ipsam numquam illum deleniti quo.</p>
+                <div class="user-comment-box">
+                    <div class="user-img-box">
+                        <i class='user-img-com bx bxs-face-mask' ></i>
+                    </div>
+                    <div class="user-comment">
+                    <h4>Ahmet Eray Karadağ</h4>
+                    <p>Lorem ipsum dolor sit,Lorem ipsum dolor sit amet. amet consectetur adipisicing elit. Ex consectetur itaque vel blanditiis sequi velit ipsam numquam illum deleniti quo.</p>
+                    </div>
                 </div>
             </div>
 
