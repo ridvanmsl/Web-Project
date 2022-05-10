@@ -1058,8 +1058,6 @@ background-color: #ff1216;
 }
 
 .comm-date{
-    padding: 0.1rem 1rem;
-    color: var(--bg-color);
-    font-size: 12px;
-    margin-inline-start: 80%;
+    display: flex;
+    justify-content: space-between;
 }
