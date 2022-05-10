@@ -1059,6 +1059,10 @@ background-color: #ff1216;
 
 .comm-date{
     display: flex;
+    width: 772.81px;
     justify-content: space-between;
-    min-width: none;
 }
+/*.new-comm-date{
+    display: flex !important;
+    justify-content: space-between !important;
+}*/
