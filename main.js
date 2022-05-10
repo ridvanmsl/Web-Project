@@ -122,6 +122,17 @@ function newComment(){
     }
     
 }
+function handleChange(checkbox) {
+    var category = checkbox.value;
+    if(checkbox.checked == true){
+        document.getElementsByClassName(category).classList.replace("deactive","active");
+
+    }
+    else
+    {
+        document.getElementsByClassName(category).classList.replace("active","deactive");
+   }
+}
 
 
 
