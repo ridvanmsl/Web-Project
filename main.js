@@ -74,6 +74,29 @@ closebtn.onclick = () =>{
     video.classList.remove("show-video");
 
 }
+function newComment(){
+    const date = new Date();
+    var months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+    var stringdata = "";
+    var fulldate = stringdata.concat(date.getDate(),"/",months[date.getMonth()],"/",date.getFullYear()," ",date.getHours(),":",date.getMinutes(),":",date.getSeconds());
+    var data = new FormData();
+    var _name = document.getElementById("form_name").value;
+    var _surname = document.getElementById("form_surname").value;
+    var _comment = document.getElementById("form_comment").value;
+    console.log(_comment)
+    if(_name == "" || _surname == "" || _comment == ""){
+        alert("Fill the blanks");
+    }
+    else{
+        var comment = document.createElement("p");
+        comment.innerText = fulldate;
+        var commentsection = document.getElementById("newcomment");
+        commentsection.appendChild(comment)
+    }
+    
+}
+
+
 
 // comment 
 
