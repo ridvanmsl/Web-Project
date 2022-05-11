@@ -125,9 +125,6 @@ function newComment(){
 function handleChange(checkbox) {
     var category = checkbox.value;
     var elems = document.getElementsByClassName(category);
-    /*var classes = elems[0].classList;
-    var classname = document.getElementById(classes[1]);
-    console.log(classname.checked);*/
     if(checkbox.checked == true){
         for(let i = 0; i<elems.length;i++){
             elems[i].classList.replace("deactive","active");
@@ -140,18 +137,21 @@ function handleChange(checkbox) {
             var flag = true;
             for(let j = 1; j<classes.length-1;j++){
                 var classname = document.getElementById(classes[j]);
-                if(classname.checked == true && classname != category){
-                    flag = false;
-                    break;
+                if(classname == null){
+                    continue;
+                }
+                else{
+                    if((classname.checked == true) && (classname.value != category)){
+                        flag = false;
+                        break;
+                    }
                 }
             }
             if(flag){
                 elems[i].classList.replace("active","deactive");
             }
         }
-   }
-
-
+    }
 }
 // comment 
 
