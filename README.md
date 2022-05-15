@@ -1,6 +1,6 @@
 #_________________________________________________________________________________________________
 
-                                                                #MOVBOT USING GUIDE
+                                       #MOVBOT USING GUIDE
 #_________________________________________________________________________________________________
 
 
@@ -30,18 +30,18 @@ Movbot is completely free and it designed by a free software company that aims t
 
 #_________________________________________________________________________________________________
 
-#Our Contributors and their occupations
+                               #Our Contributors and their occupations
 #_________________________________________________________________________________________________
 
-#Rıdvan Musaoğlu 
+#Rıdvan Musaoğlu - B201202062
 
 Designing part, simplifications,sketch, conventions, surveys, layouts
 
-#Arman Yaycı
+#Arman Yaycı - 
 
 Designing part, Modules, interfaces, accessibility,basic constructs
 
-#Ahmet Eray Karadağ
+#Ahmet Eray Karadağ - B201202021
 
 Designing part, methodologies, dom manipulations, fetch api,modular javascript
 
